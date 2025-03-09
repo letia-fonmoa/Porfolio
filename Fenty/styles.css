@@ -1,0 +1,180 @@
+/*-----INDEX.HTML-----*/
+
+body {
+	margin: 0;
+	font-family: "Satisfy", cursive;
+	line-height: 100%;
+	background-color: #deb8e6;
+
+	
+}
+
+.wrapper {
+	width: cover;
+	margin: auto;
+	border-color: #deb8e6;
+}
+
+header {
+	background-image: url(images/riri-holding-hands-to-face.gif);
+	background-position: 50% 50%;
+	margin-top:0;
+}
+
+header h1 {
+	color: #ffffff;
+	text-align: center;
+	padding: 100px 0;
+	margin-bottom: 0;
+}
+
+nav {
+	text-align: center;
+	background-color: #deb8e6; /*lilac*/
+	padding: 15px;
+}
+
+nav a {
+	padding:0px 30px 0px 30px;
+	color:#000000;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #ffffff;
+	text-decoration: line-through;
+	transition: 0.2s; 
+}
+
+p {
+	font-family: "Sawarabi Mincho", sans-serif;
+}
+
+h2{
+	text-align: center;
+	padding: 5px 0px 20px 0px;
+}
+
+h3 {
+	font-size: 25px;
+	padding: 20px 0px 5px 0px;
+}
+
+h4 {
+	padding-top: 10px;
+}
+
+
+section{
+	background-color: #F6E0D5;
+}
+
+
+.container {
+	width: 70%;
+	margin: auto;
+	background-image: url(images/white-marble.jpg);
+	border-left: 20px solid #deb8e6;
+	border-right: 20px solid #deb8e6;
+}
+
+.inner {
+	padding: 50px;
+}
+
+.clearfix {
+	clear: both;
+}
+
+footer{
+	background-color: #deb8e6;
+}
+
+footer h2 {
+	font-size: 18px;
+	text-decoration: underline;
+}
+
+footer li {
+	font-size: 13px;
+}
+
+footer div.column {
+	float: left;
+	width: 33.3%;
+}
+
+
+
+footer div.column ul li {
+	margin-right: 30px;
+	padding-top: 10px; 
+	padding-bottom: 10px;
+}
+
+
+
+.link {
+	text-decoration: none;
+	color: #000000;
+	font-style: italic;
+}
+
+.link:hover {
+	font-weight: bold;
+	transition: 0.2s;
+	font-style: normal;
+}
+
+.content:hover {
+	color: #b73cc2; /*light-medium purple*/
+}
+
+.content:active {
+	color: #deb8e6; /*light purple*/
+}
+
+.footer:hover {
+	color: #a2dcf5; /*light blue*/
+}
+
+.footer:active {
+	color: #7496cc; /*light-medium blue*/
+}
+
+/*.link:visited {
+	color: #b73cc2;
+}
+*/
+
+.fa-instagram, .fa-twitter, .fa-youtube {
+  text-decoration: none;
+ }
+
+
+/*-----MUSIC.HTML-----*/
+
+ol, ul {
+	font-family: "Sawarabi Mincho", sans-serif;
+}
+
+
+/*-----GALLERY-----*/
+
+img.mq-gallery {
+	float: left;
+	-webkit-filter: grayscale(100%);  Safari 6.0 - 9.0 
+  	filter: grayscale(100%);
+  	margin: 2px;
+  	border: 3px solid #deb8e6;
+ }
+
+img.mq-gallery:hover {
+	-webkit-filter: none;
+	filter: none;
+	transition: 0.5s;
+}
+
+img {
+	text-decoration-color: lightblue;
+}
